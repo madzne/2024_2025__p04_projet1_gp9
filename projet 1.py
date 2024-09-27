@@ -3,7 +3,7 @@ def bin_dec_hex__to__bin_dec_hex (init_number, init_base, target_base):
     target_number = None
     return target_number
 
-from utils import *
+from tools import *
 
 assert bin_dec_hex__to__bin_dec_hex ("101", 2, 10) == "5"
 
@@ -17,4 +17,4 @@ def do_the_job ():
                                     target_base)
 
 do_the_job ()
->>>>>>> e1f7b6371307404350358da03cb92840c8e33655
+
