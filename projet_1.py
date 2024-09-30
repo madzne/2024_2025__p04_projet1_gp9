@@ -22,8 +22,11 @@ def ask_for_the_init_number ():
         init_number = input (ask_again_for_the_init_number_text)
     return init_number
 
-def ask_for_the_init_base ():
-    pass
+def ask_for_the_init_base (init_number):
+    init_base = input(ask_for_the_init_base_text)
+    target_base= input(ask_for_the_target_base)
+    if init_base == target_base:
+        return init_number
 
 def do_the_job ():
     init_number = ask_for_the_init_number ()
