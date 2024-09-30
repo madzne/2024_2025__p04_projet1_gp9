@@ -23,7 +23,8 @@ def ask_for_the_init_number ():
     return init_number
 
 def ask_for_the_init_base ():
-    
+    pass
+
 def do_the_job ():
     init_number = ask_for_the_init_number ()
     init_base = ask_for_the_init_base ()
