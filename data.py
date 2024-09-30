@@ -4,3 +4,5 @@ hex_valid_chars = dec_valid_chars + ["A","B","C","D","E","F","a","b","c","d","e"
 
 ask_for_the_init_number_text = "File moi le nombre : "
 ask_again_for_the_init_number_text = "File moi encore le nombre : "
+ask_for_the_init_base_text = "donne moi la base de départ"
+ask_for_the_target_base = "donne moi la base d'arrivé"
