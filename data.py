@@ -1,4 +1,4 @@
 data
 "j'aime les pates"
-"julieeeeeeennnnnenenenennenenene
-"
+print: "je suis une banane pleine de proteine"
+
