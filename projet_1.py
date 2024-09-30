@@ -34,4 +34,22 @@ def do_the_job ():
                                     target_base)
 
 do_the_job ()
+ jkhfpgn
+ duk
+ ryuk
+ dk,
+ yfukry
+ utyhktyjr
+ nfkrejgnv
+ ergjkvnrekoejvn
+ dfneknfkegjergerthtyj
+ tykrtykgfhkrtyuty
+ rtrhjr cdjujrdfggh
+ tyjrkirjrudmde,nfkrejgnvjsfkf
+
+ rfjdfh
+ Dr-kngsf_fgnerggsçs
+ def je_suis_uen_carrotte():
+    if a = 3
+    v = 4 + a
 
