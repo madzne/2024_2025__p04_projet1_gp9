@@ -6,7 +6,7 @@ def bin_dec_hex__to__bin_dec_hex (init_number, init_base, target_base):
 from tools import *
 from data import *
 
-#assert bin_dec_hex__to__bin_dec_hex ("101", 2, 10) == "5"
+assert bin_dec_hex__to__bin_dec_hex ("101", 2, 10) == "5"
 
 ask_for_the_init_number_text = "Le nombre ? :"
 
@@ -48,6 +48,7 @@ def ask_for_the_init_number ():
 
 
 def ask_for_the_init_base ():
+    pass
     init_base = input(ask_for_the_init_base_text)
     while not (is_a_valid_base(init_base)) == True:
         init_base = input(ask_for_the_init_base_text)
@@ -66,6 +67,7 @@ def ask_for_the_target_base():
 
 
 
+
 def do_the_job ():
     init_number = ask_for_the_init_number ()
     init_base = ask_for_the_init_base ()
@@ -79,3 +81,81 @@ do_the_job()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def div_successives (n, d):
+    q = n // d 
+    restes = ""
+    while q > 0 :
+
+        restes = n % 2
+        n = q
+        q = n // 2
+        restes = restes + restes
+    
