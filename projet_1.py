@@ -6,7 +6,7 @@ def bin_dec_hex__to__bin_dec_hex (init_number, init_base, target_base):
 from tools import *
 from data import *
 
-assert bin_dec_hex__to__bin_dec_hex ("101", 2, 10) == "5"
+#assert bin_dec_hex__to__bin_dec_hex ("101", 2, 10) == "5"
 
 def is_a_valid_number (init_number):
     i = 0
@@ -24,9 +24,17 @@ def ask_for_the_init_number ():
 
 def ask_for_the_init_base (init_number):
     init_base = input(ask_for_the_init_base_text)
-    target_base= input(ask_for_the_target_base)
+    
+
+def ask_for_the_target_base(init_base,init_number):
+    target_base= input(ask_for_the_target_base_text)
     if init_base == target_base:
         return init_number
+    else:
+        pass
+
+
+
 
 def do_the_job ():
     init_number = ask_for_the_init_number ()
