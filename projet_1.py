@@ -79,69 +79,20 @@ do_the_job()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-def div_successives (n, d):
+def decimal_to_bin (n, d):
     q = n // d 
     restes = ""
     while q > 0 :
 
-        restes = n % 2
+        reste = n % 2
         n = q
         q = n // 2
-        restes = restes + restes
+        restes= reste + restes
+        return restes
+
+
+
+
+
+
     
