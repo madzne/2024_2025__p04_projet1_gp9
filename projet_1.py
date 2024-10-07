@@ -41,9 +41,23 @@ def ask_for_the_init_number ():
     return init_number
         
 
+# def is_a_valid_base():
+#     while valid_base == True:
+#         return valid_base
+    
+
+
 def ask_for_the_init_base ():
     pass
     init_base = input(ask_for_the_init_base_text)
+    while not (is_a_valid_base(init_base)) == True:
+        init_base = input(ask_for_the_init_base_text)
+    return init_base
+    
+
+        
+
+
 
     
 
