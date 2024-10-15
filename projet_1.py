@@ -88,6 +88,16 @@ do_the_job()
 
 
 
+# def decimal_to_bin (n, d):
+#     q = n // d 
+#     restes = ""
+#     while q > 0 :
+
+#         reste = n % 2
+#         n = q
+#         q = n // 2
+#         restes= reste + restes
+#         return restes
 
 # def dec_to_bin (n, d):
 #     q = n // d 
@@ -101,21 +111,17 @@ do_the_job()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# def bin_to_decimal(binary):
+#     decimal = 0
+#     # Inverser la chaîne binaire pour traiter chaque bit de droite à gauche
+#     binary = binary[::-1]
     
+#     for i in range(len(binary)):
+#         # Convertir chaque caractère en entier (0 ou 1) et ajouter à la somme
+#         if binary[i] == '1':
+#             decimal += 2 ** i
+
+
+
+#     return decimal
+
