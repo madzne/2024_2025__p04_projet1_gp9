@@ -6,7 +6,7 @@ def bin_dec_hex__to__bin_dec_hex (init_number, init_base, target_base):
 from tools import *
 from data import *
 
-assert bin_dec_hex__to__bin_dec_hex ("101", 2, 10) == "5"
+# assert bin_dec_hex__to__bin_dec_hex ("101", 2, 10) == "5"
 
 ask_for_the_init_number_text = "Le nombre ? :"
 
@@ -40,19 +40,25 @@ def ask_for_the_init_number ():
         init_number = input (ask_again_for_the_init_number_text)
     return init_number
         
+def is_a_valid_base(n):
+    n == valid_base
+    while n not in valid_base:
+        n = False
+        input(ask_again_for_the_base)
+    return good_answer
 
-# def is_a_valid_base():
-#     while valid_base == True:
-#         return valid_base
+# regler le probleme dans la console parce que demande le mauvais truc
+
     
 
 
 def ask_for_the_init_base ():
-    pass
     init_base = input(ask_for_the_init_base_text)
     while not (is_a_valid_base(init_base)) == True:
         init_base = input(ask_for_the_init_base_text)
     return init_base
+
+
     
 
         
