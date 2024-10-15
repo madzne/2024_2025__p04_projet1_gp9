@@ -88,6 +88,7 @@ do_the_job()
 
 
 
+
 # def dec_to_bin (n, d):
 #     q = n // d 
 #     restes = ""
@@ -97,4 +98,24 @@ do_the_job()
 #         n = q
 #         q = n // 2
 #         restes = restes + restes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
