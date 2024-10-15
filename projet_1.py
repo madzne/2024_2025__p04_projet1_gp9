@@ -40,12 +40,12 @@ def ask_for_the_init_number ():
         init_number = input (ask_again_for_the_init_number_text)
     return init_number
         
-def is_a_valid_base(n):
-    n == valid_base
-    while n not in valid_base:
-        n = False
+def is_a_valid_base(number):
+    number == valid_base
+    while number not in valid_base:
+        number = False
         input(ask_again_for_the_base)
-    return good_answer
+    return number
 
 # regler le probleme dans la console parce que demande le mauvais truc
 
