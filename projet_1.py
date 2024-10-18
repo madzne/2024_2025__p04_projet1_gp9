@@ -118,19 +118,18 @@ do_the_job()
 #         q = n // 2
 #         restes = restes + restes
 
+def decimal_to_bin(n):
+    if n == 0:
+        return "0"
+    restes = ""
+    while n > 0:
+        reste = n % 2  # Trouver le reste (0 ou 1)
+        restes = str(reste) + restes  # Ajouter le reste au début de la chaîne
+        n = n // 2  # Mettre à jour le quotient
+    return restes
 
+# Exemple d'utilisation
+nombre_decimal = 13
+print(f"Le binaire correspondant à {nombre_decimal} est {decimal_to_bin(nombre_decimal)}")
 
-# def bin_to_decimal(binary):
-#     decimal = 0
-#     # Inverser la chaîne binaire pour traiter chaque bit de droite à gauche
-#     binary = binary[::-1]
-    
-#     for i in range(len(binary)):
-#         # Convertir chaque caractère en entier (0 ou 1) et ajouter à la somme
-#         if binary[i] == '1':
-#             decimal += 2 ** i
-
-
-
-#     return decimal
 
