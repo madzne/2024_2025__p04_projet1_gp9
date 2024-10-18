@@ -15,3 +15,4 @@ good_answer = "c'est la bonne réponse"
 ask_for_the_target_base_text = "donne moi la base d'arrivé:"
 
 re_ask_for_the_target_base_text = "redonne moi la base d'arrivé:"
+re_ask_for_the_init_base_text = " redonne la base de départ"
