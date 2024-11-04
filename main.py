@@ -37,6 +37,7 @@ elif base == "h" and futur_base == "d":
 elif base == "d" and futur_base == "d":
     nouveau_nombre = nombre
 
+
 elif base == "b" and futur_base == "b":
     nouveau_nombre = nombre
 

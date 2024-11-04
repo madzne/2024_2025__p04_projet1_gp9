@@ -78,11 +78,7 @@ def binaire_vers_hexadecimal(nombre):
     for i in range (0, len(nombre),4):
         quatior = binaire_vers_decimal(nombre[i:i+4])
         quatior = decimal_vers_hexadecimal(quatior)
-        
-        #quatior = decimal_vers_hexadecimal(binaire_vers_decimal(nombre[i:i+4]))
-        
         somme_des_nombres = somme_des_nombres + quatior
-    
     return somme_des_nombres
         
 #nombre (str)
@@ -99,14 +95,14 @@ def decimal_vers_binaire(nombre):
 #nombre (str)
 #retourne le nouveau nombre (str)
 def hexadecimal_vers_binaire(nombre):
-    resultat = decimal_vers_binaire(hexadecimal_vers_decimal(nombre[0]))
+    resultat = decimal_vers_binaire(hexadecimal_vers_decimal(nombre))
     for elem in nombre[1:]:
         #resultat = resultat + hexadecimal_vers_decimal(decimal_vers_binaire(elem))
         # resultat = resultat + decimal_vers_binaire(hexadecimal_vers_decimal(elem))
         nb = hexadecimal_vers_decimal(elem)
-        print ("result",resultat)
-        print("elem:",elem)
-        print("fct",decimal_vers_binaire_quatre_bit(nb))
+       # print ("result",resultat)
+        #print("elem:",elem)
+        #print("fct",decimal_vers_binaire_quatre_bit(nb))
         resultat += decimal_vers_binaire_quatre_bit(nb)
         
     return resultat
