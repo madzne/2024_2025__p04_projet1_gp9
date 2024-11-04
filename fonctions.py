@@ -1,8 +1,7 @@
 from data import*
 
-
 #base (str) et nombre (str) donnés par l'utilisateur 
-#d'abord on verifie que la base est une des rrois possibilitées puis on verifie que les charactèere du nombres appaartiennent bien a la bases
+#d'abord on verifie que la base est une des trois possibilitées puis on verifie que les charactèere du nombres appaartiennent bien a la bases
 #retourne un Bolleen (True or False) 
 def verifie_base_et_nombre(number,base):
     if not verifie_futur_base(base):
@@ -33,9 +32,7 @@ def verifie_futur_base(futur_base):
     else:
         return False 
 
-
 #nombre (str)
-#
 #retourne le nouveau nombre (str)
 def binaire_vers_decimal(nombre) :
     resultat_avant = 0
@@ -44,12 +41,10 @@ def binaire_vers_decimal(nombre) :
         resultat_avant = resultat_avant + nouveau_nombre
     return resultat_avant
 
-
 #nombre (str)
-#
 #retourne le nouveau nombre (str)
 def decimal_vers_hexadecimal(nombre):
-    #nombre = int(nombre)
+    nombre = int(nombre)
     nouveau_nombre = ""
     while nombre != 0 :
         if nombre % 16 == 10:
@@ -72,9 +67,7 @@ def decimal_vers_hexadecimal(nombre):
     
     return nouveau_nombre
 
-
 #nombre (str)
-#
 #retourne le nouveau nombre (str)
 def binaire_vers_hexadecimal(nombre):
     quatior = ""
@@ -92,11 +85,7 @@ def binaire_vers_hexadecimal(nombre):
     
     return somme_des_nombres
         
-
-
-
 #nombre (str)
-#
 #retourne le nouveau nombre (str)
 def decimal_vers_binaire(nombre):
     nombre = int(nombre)
@@ -107,17 +96,13 @@ def decimal_vers_binaire(nombre):
     nouveau_nombre = nouveau_nombre[::-1]    #chatgpt
     return nouveau_nombre
 
-
-
 #nombre (str)
-#
 #retourne le nouveau nombre (str)
 def hexadecimal_vers_binaire(nombre):
     resultat = decimal_vers_binaire(hexadecimal_vers_decimal(nombre[0]))
     for elem in nombre[1:]:
-        #resultat += hexadecimal_vers_decimal(decimal_vers_binaire(elem))
         #resultat = resultat + hexadecimal_vers_decimal(decimal_vers_binaire(elem))
-        #resultat = resultat + decimal_vers_binaire(hexadecimal_vers_decimal(elem))
+        # resultat = resultat + decimal_vers_binaire(hexadecimal_vers_decimal(elem))
         nb = hexadecimal_vers_decimal(elem)
         print ("result",resultat)
         print("elem:",elem)
@@ -141,10 +126,7 @@ def decimal_vers_binaire_quatre_bit(nb):
     #print ("nb =",nb,"result = ",resultat,"fct = ",decimal_vers_binaire(nb))
     return resultat+decimal_vers_binaire(nb)
 
-
-
 #nombre (str)
-#
 #retourne le nouveau nombre (str)
 def hexadecimal_vers_decimal(nombre):
     resultat_avant = 0
