@@ -1,14 +1,14 @@
 from fonctions import*
 
 nombre = (input("entrez un nombre :\n"))
-base = input("c'est quelle base : (b or d or h):\n")
+base = input("c'est quelle base : (binaire = b or décimal = d or hexadécimal = h):\n")
 
 print (nombre)
 
 while not (verifie_base_et_nombre(nombre, base)):
     print("votre saisi n'est pas valide")
-    nombre = input("entrez un nombre ::\n")
-    base = input("c'est quelle base ::\n")
+    nombre = input("entrez un nombre :\n")
+    base = input("c'est quelle base :\n")
 
 futur_base = input("entrez la base souhaitée :\n")
 
@@ -37,7 +37,6 @@ elif base == "h" and futur_base == "d":
 elif base == "d" and futur_base == "d":
     nouveau_nombre = nombre
 
-
 elif base == "b" and futur_base == "b":
     nouveau_nombre = nombre
 
@@ -45,7 +44,3 @@ elif base == "h" and futur_base == "h":
     nouveau_nombre = nombre
         
 print ("le nouveau nombre est", nouveau_nombre)
-
-
-
-
