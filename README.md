@@ -1,2 +1,45 @@
-# Binaire , Décimal , Hexadécimal :
-Installation : Il suffit d'un d'un logiciel permettant de faire fonctionner un code en python comme par exemple Visual Studio Code.​
+# Binaire , Décimal , Hexadéciamal
+
+Le projet est divisé en trois différentes parties : main , data , fonctions.
+Dans le dossier "fonctions" se trouve toutes les fonctions permettant de faire les différents passages.
+Dans le dossier "data" est l'endroit où on définit les différentes bases.
+Dans le dossier "main" est l'endroit où se situe la structure du programme et qui appelle les autres fonctions, et se trouve toutes les phrases qui permettent un début d'interface pour guider l'utilisateur.
+
+## Pour commencer
+
+### Pré-requis
+
+Il faut une interface ou bien d'une application qui permet de lire le langage pyhton comment par exemple Visual Studio Code.
+Il faut aussi que tous les dossiers soient ouverts en même temps. 
+
+## Démarrage
+
+Pour lancer le projet il suffit d'appuyer sur le bouton éxécuter.
+
+## Fabriqué avec :
+
+* [Visual Studio Code](https://code.visualstudio.com/) - Plateforme de programmation
+* [GitHub Desktop](https://github.com/apps/desktop) - Plateforme d'échanges
+* [GitHub](https://github.com/) - Plateforme sur laquelle le projet est publié
+
+## Contributing
+
+Si vous souhaitez contribuer, venez nous demander par mail à travers cette boite mail projet@gmail.com .
+
+## Versions
+Il y a 2 versions mais celle qui fonctionne est la version 2
+
+## Auteurs
+Auteurs du projet :
+* **Mathéo** _alias_ [@madzne](https://github.com/madzne)
+* **Julian**
+* **Cyprien**
+  
+
+Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
+
+_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
+
+## License
+
+Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
