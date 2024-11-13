@@ -32,14 +32,10 @@ Il y a 2 versions mais celle qui fonctionne est la version 2
 ## Auteurs
 Auteurs du projet :
 * **Mathéo** _alias_ [@madzne](https://github.com/madzne)
-* **Julian**
-* **Cyprien**
+* **Julian** _alias_ [@Julian bdt](https://github.com/juju9394)
+* **Cyprien** _alias_ [@amourjunior](https://github.com/amourjunior)
   
-
-Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
-
-_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
 
 ## License
 
-Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
+Ce projet est sous aucune licence.
