@@ -38,4 +38,4 @@ Auteurs du projet :
 
 ## License
 
-Ce projet est sous aucune licence.
+Ce projet est sous aucune license.
