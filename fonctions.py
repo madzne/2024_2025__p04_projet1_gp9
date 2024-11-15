@@ -74,11 +74,10 @@ def binaire_vers_hexadecimal(nombre):
     somme_des_nombres = ""
     while len(nombre) % 4 != 0 :
         nombre =  "0" + nombre
-    
     for i in range (0, len(nombre),4):
         quatior = binaire_vers_decimal(nombre[i:i+4])
         quatior = decimal_vers_hexadecimal(quatior)
-        somme_des_nombres = somme_des_nombres + quatior
+        somme_des_nombres = somme_des_nombres + quatior      #chatgpt
     return somme_des_nombres
         
 #nombre (str)
@@ -97,32 +96,8 @@ def decimal_vers_binaire(nombre):
 def hexadecimal_vers_binaire(nombre):
     resultat = decimal_vers_binaire(hexadecimal_vers_decimal(nombre))
     for elem in nombre[1:]:
-        # resultat = resultat + hexadecimal_vers_decimal(decimal_vers_binaire(elem))
-        # resultat = resultat + decimal_vers_binaire(hexadecimal_vers_decimal(elem))
         nb = hexadecimal_vers_decimal(elem)
-        #print  ("result",resultat)
-        #print("elem:",elem)
-        #print("fct",decimal_vers_binaire_quatre_bit(nb))
-        #resultat += decimal_vers_binaire_quatre_bit(nb)
-        
     return resultat
-
-
-
-# def decimal_vers_binaire_quatre_bit(nb):
-#     if int(nb) >= 8:
-#         resultat = ""
-#     elif int(nb) >= 4:
-#         resultat = "0"
-#     elif int(nb) >= 2:
-#         resultat = "00"
-#     else:
-#         if int(nb) == 0:
-#             return "0000"
-#         else:
-#             return "0001"
-#     #print ("nb =",nb,"result = ",resultat,"fct = ",decimal_vers_binaire(nb))
-#     return resultat+decimal_vers_binaire(nb)
 
 #nombre (str)
 #retourne le nouveau nombre (str)
@@ -148,6 +123,5 @@ def hexadecimal_vers_decimal(nombre):
         resultat_avant = resultat_avant + nouveau_nombre
     return str(resultat_avant)
 
-#print(decimal_vers_binaire("6"))
-#print(hexadecimal_vers_binaire("7"))
+
 
